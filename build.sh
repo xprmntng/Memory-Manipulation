@@ -1,3 +1,3 @@
 #!/bin/bash
 
-g++ -Iinclude -std=c++20 src/main.cpp -o main
+g++ -I ./include --std c++20 src/*.cpp -o main
